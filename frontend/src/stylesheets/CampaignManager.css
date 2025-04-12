@@ -1,0 +1,53 @@
+@import "./main.css";
+
+.campaign-manager {
+    display: flex; /* Make overall layout potentially more flexible */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally within available space */
+    width: fit-content; /* Allow content to shrink the container width */
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional light border */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f0f9ff;  /* Very light blue */
+  }
+  
+  .campaign-manager h1 {
+    margin-bottom: 10px;
+  }
+  
+  .campaign-manager table {
+    border-collapse: collapse; /* Ensures table borders don't overlap cell borders */
+    width: 100%; /* Stretch table to full width */
+  }
+  
+  .campaign-manager th,
+  .campaign-manager td {
+    padding: 10px; /* Padding for readability */
+    border: 1px solid #000000; /* Light border for table cells */
+    background-color: white;
+  }
+  
+  .campaign-manager th {
+    text-align: left; /* Align table headers to the left */
+  }
+  
+  .campaign-manager button {
+    background-color: #307bff; /* Dark blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .campaign-manager a { /* Style links for edit button */
+    color: #307bff; /* Same blue as buttons */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .campaign-manager a:hover { /* Add hover effect */
+    text-decoration: underline;
+  }
+  

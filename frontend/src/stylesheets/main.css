@@ -1,0 +1,18 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f2ff;  /* Light blue */
+  }
+  
+  /* Centered content */
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Fills viewport height */
+    padding-top: 100px;  /* Adjust for spacing from top */
+  }

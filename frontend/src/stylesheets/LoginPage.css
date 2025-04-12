@@ -1,0 +1,46 @@
+@import "./main.css";
+
+form {
+    display: flex;  /* Arrange elements horizontally */
+    flex-direction: column;  /* Stack elements vertically */
+    align-items: center;  /* Center elements horizontally */
+    justify-content: center;  /* Center elements vertically within available space */
+    width: fit-content;  /* Allow form to shrink to content width */
+    margin: 100px auto;  /* Add top and bottom margin, center horizontally */
+    padding: 20px;
+    border: 1px solid #ddd;  /* Optional light border */
+    border-radius: 5px;  /* Rounded corners */
+    background-color: #f0f9ff;  /* Very light blue */
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #307bff;  /* Dark blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  /* Error message styling */
+  #response-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
